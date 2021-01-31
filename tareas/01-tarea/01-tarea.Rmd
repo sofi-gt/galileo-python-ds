@@ -1,0 +1,44 @@
+---
+title: "Investigación Anaconda, Git y Github"
+author: "Sofia Garcia Salas"
+date: "2021-01-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Anaconda
+
+`Anaconda` es una distribución de Python y R que instala todas las herramientas necesarias para realizar ciencia de datos. Su objetivo es simplificar la instalación y administración de estos paquetes. Las versiones de los paquetes son administrados por el sistema llamado `conda`.
+
+`Anaconda` también puede ser utilizada para manejar ambientes virtuales y asegurar que los proyectos creados puedan ser utilizados en Windows, Linux y macOS. Cada proyecto puede tener su propio ambiente en el que se pueden manejar las versiones de los paquetes y asegurar la reproducibilidad.
+
+`Anaconda` incluye una interfaz gráfica (GUI) que permite utilizar aplicaciones y administrar los paquetes sin tener que usar la línea de comando.
+
+Dentro de los paquetes destacados que pueden ser instalados con Anaconda están:
+
+-   `numpy` que tiene soporte para matrices y funciones matemáticas avanzadas
+
+-   `pandas` para manipulación y análisis de datos
+
+-   `scikit learn` que contiene una librería de algoritmos para machine learning
+
+## Git
+
+`Git` es un sistema distribuido para control de versiones. Este permite llevar un registros de cambios de un repositorio de archivos y ayuda a trabajar de forma colaborativa.
+
+Sus características más importantes son:
+
+-   Apoyo a desarrollo no linear. Permite ramificar proyectos y después unirlo de forma rápida sin consumir muchos recursos.
+
+-   Eficiente para manejar proyectos grandes
+
+-   Autenticación criptográfica de las versiones.
+
+## Github
+
+`Github` es un servicio de hosting que permite almacenar proyectos administrados por `Git`. Este actúa como un canal de distribución de los proyectos. Permite que otras personas vean el código, lo sincronicen y puedan sugerir o realizar cambios.
+
+Aparte de la funcionalidad que ofrece `Git`, `Github` tiene otras características para compartir código y administrar proyectos como seguimiento de bugs, wikis, solicitudes de features y administración de tareas.
