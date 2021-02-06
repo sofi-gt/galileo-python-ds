@@ -128,3 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .vscode/settings.json
+.Rhistory
+galileo-python-ds.Rproj
+.Rproj.user
